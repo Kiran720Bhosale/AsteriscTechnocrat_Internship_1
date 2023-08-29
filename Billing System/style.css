@@ -1,0 +1,22 @@
+body{
+    background-color:  #1d2630;
+}
+*{
+    color: orange;
+    padding: 2%;
+}
+
+#cart-table th, #cart-table td{
+    text-align: center;
+}
+
+#total-cost{
+    font-size: 24px;
+    font-weight: bold;
+}
+
+@media Print {
+    .no-print{
+        display: none;
+    }
+}
